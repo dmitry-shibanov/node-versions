@@ -23,7 +23,7 @@ on:
 jobs:
   node:
     name: Node
-    uses: dmitry-shibanov/versions-package-tools/.github/workflows/build-tool-packages.yml@pin-arm64-architecture
+    uses: dmitry-shibanov/versions-package-tools/.github/workflows/build-tool-packages.yml@add-support-for-arm64
     with:
       tool-name: "node"
       tool-version: ${{ inputs.VERSION || '18.12.0' }}
