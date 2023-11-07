@@ -23,7 +23,7 @@ on:
 jobs:
   node:
     name: Node
-    uses: dmitry-shibanov/versions-package-tools/.github/workflows/build-tool-packages.yml@v-dmshib/add-auto-build-arm64
+    uses: dmitry-shibanov/versions-package-tools/.github/workflows/build-tool-packages.yml@v-dmshib/add-macos-13-xlarge
     with:
       tool-name: "node"
       tool-version: ${{ inputs.VERSION || '18.12.0' }}
